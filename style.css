@@ -1,0 +1,148 @@
+/* CTA Banner Styles */
+.cta-banner {
+  /* Tall, visually striking banner */
+  background: linear-gradient(rgba(0, 80, 120, 0.7), rgba(0, 180, 180, 0.7)), url('img/cta-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif; /* Modern, easy-to-read font */
+  min-height: 400px;
+}
+
+.cta-banner h1 {
+  /* Large main heading */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.cta-description {
+  /* Short description styling */
+  font-size: 1.2em;
+  margin-bottom: 35px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  /* Eye-catching button */
+  display: inline-block;
+  background-color: #00b4b4; /* Bright teal */
+  color: #fff;
+  padding: 16px 36px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s;
+}
+
+.cta-button:hover {
+  /* Button hover effect */
+  background-color: #007c99; /* Deeper blue */
+}
+
+/* Site Header Styles */
+.site-header {
+  /* Simple header aligned with the CTA color palette */
+  background-color: #005078; /* Deep blue from palette */
+  color: #fff;
+  padding: 18px 0;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #00b4b4; /* Teal accent */
+}
+
+.site-header h2 {
+  /* Site name styling */
+  font-size: 2em;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Info Section Styles */
+.info-section {
+  /* Two evenly sized columns, centered */
+  max-width: 800px;
+  margin: 40px auto;
+  background: #f6fcfd; /* Very light blue for contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,80,120,0.07);
+  padding: 24px 16px;
+  display: table; /* Use table layout for simple columns */
+  width: 100%;
+}
+
+.info-image, .info-text {
+  /* Each column takes up half the section */
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.info-image img {
+  /* Responsive image styling */
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,80,120,0.10);
+}
+
+.info-text {
+  /* Text column styling */
+  padding: 0 20px;
+  color: #005078;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e0f4f7; /* Slightly darker blue background for contrast */
+  border-radius: 6px;
+}
+
+.info-text h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+  color: #00b4b4;
+}
+
+.info-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  /* Stack columns on small screens */
+  .info-section {
+    display: block;
+    text-align: center;
+  }
+  .info-image, .info-text {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .info-text {
+    margin-top: 20px;
+  }
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color: #005078; /* Match site palette */
+  color: #fff;
+  text-align: center;
+  padding: 28px 10px 18px 10px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 40px;
+  border-top: 3px solid #00b4b4; /* Teal accent */
+}
+
+.site-footer section {
+  margin-bottom: 10px;
+}
+
+.site-footer strong {
+  color: #00b4b4;
+}
